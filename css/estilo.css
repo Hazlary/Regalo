@@ -1,0 +1,58 @@
+body{
+	/*background: url(../img/banner2.jpg);*/
+}
+
+header{
+	background: black;
+	color: white;
+}
+
+.adaptacion{
+	height: 75vh;
+	width: 100%;
+}
+
+.responsive{
+	height: 35vh;
+}
+
+#mapa{
+	margin: auto;
+	width: 600px;
+	height: 300px;
+}
+
+#mapa iframe{
+	text-align: center;
+	width: 120%;
+	height: 200%;
+
+}
+.m{
+	text-align: center;
+}
+
+#contenedor_principal{
+width:1024px;
+height:auto;
+position:relative;
+margin:auto;
+}
+.contenedor_imagen_texto{
+width:335px;
+height:auto;
+position:relative;
+display:inline-block;
+vertical-align:top;
+overflow:hidden;
+}
+.imagen, .texto{
+width:100%;
+height:auto;
+position:relative;
+display:inline;
+}
+.texto{
+height:auto;
+text-align:center
+}
